@@ -1,0 +1,108 @@
+.navbar {
+	background-image: linear-gradient(55deg, darkslategray,black);
+	
+}
+body{
+	background: #e8e8e8;
+}
+
+.card{
+}
+.card:hover{
+transform: translateY(-10px);
+}
+.error{
+	color: red;
+}
+.main-txt h1{
+	text-align: center;
+	margin-top: 30px;
+	font-weight: 600px;
+}
+.packages .card{
+	border-radius: 5px;
+	border: none;
+	box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+}
+.packages .card img{
+	border-radius: 5px;
+}
+.packages .card .card-body{
+	background:transparent;
+
+}
+/* Reset some default styling */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #e8e8e8;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.coupon{
+	border: 5px dotted #bbb;
+	width: 30%;
+	height: 30%;
+	border-radius: 15px;
+	margin: 0 auto;
+	max-width: 600px;
+	float: left;
+}
+.coupon2{
+	border: 5px dotted #bbb;
+	width: 30%;
+	height: 30%;
+	border-radius: 15px;
+	margin: 0 auto;
+	max-width: 600px;
+	float: middle;
+	margin-right: 2%;
+}
+
+.container{
+	padding: 2px 16px;
+}
+.coupon img{
+	width: 100%;
+}
+.container2{
+	background-color:white;
+}
+.promo{
+	background: #ccc;
+	padding: 3px;
+}
+.expire{
+	color: red;
+}
+
